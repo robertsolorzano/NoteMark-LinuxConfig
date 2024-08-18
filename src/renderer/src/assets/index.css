@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html,
+  body {
+    @apply h-full;
+    @apply select-none;
+    @apply font-mono antialiased text-white;
+    @apply overflow-hidden;
+
+    /* Window background with slight opacity */
+    background-color: rgba(0, 0, 0, 0.014); /* Slight opacity to still see elements */
+
+    /* Rounded corners */
+    border-radius: 10px; /* Adjust as needed */
+    
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+
+    /* Add overflow hidden to avoid any content showing outside of the rounded corners */
+    overflow: hidden;
+  }
+
+  /* Optionally add more rounded corners to specific elements */
+  .inner-content {
+    background-color: rgba(0, 0, 0, 0.8); /* Different opacity for content */
+    border-radius: 10px; /* Match or exceed window border-radius */
+  }
+
+  header {
+    -webkit-app-region: drag;
+  }
+
+  button {
+    -webkit-app-region: no-drag;
+  }
+
+  ::-webkit-scrollbar {
+    @apply w-2;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply bg-[#555] rounded-md;
+  }
+
+  ::-webkit-scrollbar-track {
+    @apply bg-transparent;
+  }
+}
