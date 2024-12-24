@@ -2,7 +2,7 @@
 
 A Note taking desktop app with out-of-the-box markdown support. Built with Electron and React. Created by [CodeWithGionatha Labs](https://github.com/CodeWithGionatha-Labs). 
 
-Configured glassmorphasim styling to work on linux as it was only compatiable for macOS out the box. Adjusted to ensure smooth borders and clear panels for the aethetic original dev was going for. 
+Configured glassmorphism styling to work on Linux, as it was only compatible with macOS out of the box. Adjusted it to ensure smooth borders and clear panels for the aesthetic the original developer was going for.
 
 ![preview](./resources/preview.png)
 
