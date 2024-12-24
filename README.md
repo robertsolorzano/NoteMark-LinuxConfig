@@ -4,7 +4,7 @@ A Note taking desktop app with out-of-the-box markdown support. Built with Elect
 
 Configured glassmorphism styling to work on Linux, as it was only compatible with macOS out of the box. Adjusted it to ensure smooth borders and clear panels for the aesthetic the original developer was going for.
 
-![preview](./resources/preview.png)
+![preview](./resources/preview2.png)
 
 ## Project Setup
 
